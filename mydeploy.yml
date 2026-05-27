@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: project5acr.azurecr.io/java-app:34
+        image: project5acr.azurecr.io/java-app:41
         imagePullPolicy: Always
 
         ports:

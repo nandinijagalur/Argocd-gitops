@@ -1,12 +1,14 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: java-app-deployment
+  name: java-app-blue
 spec:
   replicas: 3
   selector:
     matchLabels:
       app: java-app
+      version: blue
+
   template:
     metadata:
       labels:

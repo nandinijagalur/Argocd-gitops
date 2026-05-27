@@ -13,6 +13,7 @@ spec:
     metadata:
       labels:
         app: java-app
+        version: blue
     spec:
       containers:
       - name: java-app

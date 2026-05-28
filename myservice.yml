@@ -6,7 +6,7 @@ spec:
   type: LoadBalancer
   selector:
     app: java-app
-    version: blue
+    
   ports:
   - protocol: TCP
     port: 80

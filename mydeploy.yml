@@ -30,7 +30,7 @@ spec:
 
         livenessProbe:
           httpGet:
-            path: /actuator/health/liveness
+            path: /actuator/health/livenes
             port: 80
           initialDelaySeconds: 10
           periodSeconds: 15

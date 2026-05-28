@@ -4,7 +4,7 @@ replicaCount: 3
 
 image:
   repository: project5acr.azurecr.io/java-app
-  tag: "48"
+  tag: "49"
 
 service:
   type: LoadBalancer
